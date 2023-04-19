@@ -62,6 +62,7 @@ h1 {
 	letter-spacing: 0.3rem;
 	color: var(--clr-title);
 	font-weight: 700;
+	text-align: center;
 }
 /* ===============header */
 header {
@@ -144,6 +145,7 @@ header {
 	text-align: right;
 }
 #home #heading h1 {
+	text-align: right;
 	font-size: 3rem;
 }
 #home #heading h2 {
@@ -196,7 +198,7 @@ header {
 	padding-top: 4rem;
 }
 
-#portfolio_section .container h1 {
+#portfolio_section h1 {
 	font-size: 2rem;
 	/* color: #fff; */
 	margin: 1rem auto;
@@ -205,10 +207,11 @@ header {
 }
 #portfolio_section h2 {
 	margin: 1rem auto;
-	padding: 0.4rem;
+	padding: 0.3rem;
+	font-size: 1.5rem;
 	text-align: center;
-	border-top: 2px solid var(--clr-primary2);
-	border-bottom: 2px solid var(--clr-primary2);
+	border-top: 1px solid var(--clr-primary2);
+	border-bottom: 1px solid var(--clr-primary2);
 }
 #portfolio_section .work_list {
 	width: 80%;
@@ -314,6 +317,7 @@ header {
 	/* border: 1px solid #fff; */
 }
 .about h1 {
+	text-align: left;
 	font-size: 2rem;
 	letter-spacing: 0.3rem;
 	margin: 0;
@@ -414,7 +418,9 @@ header {
 /* //  profiles...... / */
 #profiles_section {
 	width: 60%;
-	margin: 8rem auto 0 auto;
+	margin: 0 auto;
+	padding: 0;
+	padding-top: 3.5rem;
 	/* border: 1px solid var(--clr-primary); */
 }
 #profiles_section h1 {
@@ -452,8 +458,8 @@ header {
 /* //  profiles...... / */
 #contact_section {
 	width: 60%;
-	margin: 4rem auto 0 auto;
-	/* border: 1px solid var(--clr-primary); */
+	margin: 2rem auto 8rem auto;
+	padding: 0;
 }
 #contact_section h1 {
 	font-size: 2rem;
@@ -473,9 +479,6 @@ header {
 	transition-delay: 0.05s;
 	transition-duration: 0.1s;
 	transition-timing-function: linear;
-}
-.sec-title {
-	filter: blur(5px);
 }
 /* ////// */
 .show {
