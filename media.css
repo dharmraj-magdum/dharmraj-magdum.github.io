@@ -4,6 +4,10 @@
 		overflow-x: hidden;
 		padding-bottom: 5rem;
 	}
+	section {
+		margin: 2rem 0;
+		padding-top: 3.5rem;
+	}
 	header {
 		top: 0;
 		left: 0;
@@ -140,8 +144,8 @@
 	#about_section {
 		width: 100%;
 		height: unset;
-		margin: 2.5rem auto 0 auto;
-		padding-top: 2.5rem;
+		margin: 0;
+		padding-top: 3.5rem;
 	}
 	#about_section .container {
 		width: 100%;
@@ -160,7 +164,7 @@
 		margin: 0;
 	}
 	.about h1 {
-		font-size: 1.6rem;
+		font-size: 2rem;
 	}
 	.about-text {
 		text-align: justify;
@@ -217,23 +221,23 @@
 	}
 	.education-slot .year-grade {
 		font-size: 0.7rem;
-		
 	}
 
 	/* //  profiles...... / */
 	#profiles_section {
 		width: 95%;
-		height: 30vh;
-		margin: 4rem auto 0 auto;
-	}
-	#profiles_section h1 {
-		font-size: 1.5rem;
-		padding: 1rem;
+		margin: 0 auto;
+		padding: 3.5rem 0 0 0;
 	}
 	#profiles_section .container {
 		width: 100%;
-		padding: 1rem 0.3rem;
+		padding: 0.5rem;
 	}
+	#profiles_section h1 {
+		font-size: 2rem;
+		padding: 0.5rem;
+	}
+
 	.profile-links {
 		margin: 1rem 0.3rem;
 		font-size: 0.8rem;
@@ -251,18 +255,18 @@
 	/* // contact // */
 	#contact_section {
 		width: 95%;
-		height: 28vh;
-		margin: 2rem auto 0 auto;
-		padding-bottom: 2rem;
-	}
-	#contact_section h1 {
-		font-size: 1.5rem;
-		padding: 1rem;
-		border-bottom: 2px solid var(--clr-primary);
+		padding: 0rem;
+		margin: 0 auto;
+		margin-bottom: 15rem;
 	}
 	#contact_section .container {
 		width: 100%;
-		padding: 1rem 0.5rem;
+		padding: 0.5rem;
 		/* border: 1px solid var(--clr-primary); */
+	}
+	#contact_section h1 {
+		font-size: 2rem;
+		padding: 0.5rem;
+		border-bottom: 2px solid var(--clr-primary);
 	}
 }
