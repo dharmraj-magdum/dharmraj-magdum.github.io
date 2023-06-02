@@ -43,6 +43,5 @@ animatedEles.forEach((ele) => {
 	// console.log(ele);
 	observer.observe(ele);
 });
-
 ///////////////////
 console.log("script is running Good!!");
